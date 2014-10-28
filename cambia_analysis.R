@@ -6,13 +6,11 @@ library(bit64)
 library(dplyr)
 library(plyr)
 
-
 install.packages('dplyr',depend=T)
 
 dat <- fread('/data3/workarea/dswanson/kucera_tab.csv')
 dat_full_pull <- fread('/home/dswanson/product/full_pop.txt')
 #dat_small_pull <- fread('/home/dswanson/product/full_pop_small.txt')
-
 
 mean(dat_small_pull$origId %in% dat$member_ctg)
 
