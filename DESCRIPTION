@@ -1,9 +1,0 @@
-Package: davidUtils2
-Title: david utilities
-Version: 0.1
-Authors@R: "First Last <first.last@example.com> [aut, cre]"
-Description: What the package does (paragraph)
-Depends:
-    R (>= 3.0.2)
-License: GPL 2.0
-LazyData: true
