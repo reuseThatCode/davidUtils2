@@ -1,0 +1,32 @@
+
+
+library(data.table)
+
+options(echo=TRUE) # if you want see commands in output file
+args <- commandArgs(trailingOnly = TRUE)
+
+li_fi <- list.files
+
+nam <- as.numeric(args[1])
+#y <- as.numeric(args[1])
+
+
+nam_fi <- grep(nam,li_fi,value=T)
+
+
+
+
+
+asdf <- function(x){
+        return(2*x)
+    }
+
+z = asdf(y)
+
+save(z,file='r_ob.RObject')
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+
+
+/InovaCommon/software/vcftools_0.1.12b/bin/vcftools --vcf /InovaCommon/chr19.vcf --chr chr19 --from-bp 41708611 --to-bp 41730517  --012 --out chr19_sub
+

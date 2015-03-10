@@ -1,0 +1,8 @@
+
+library(data.table)
+
+dat <- fread("/InovaOutput5/chr19_sub_singleton.singletons")
+vcf_sub <- fread("/InovaCommon/chr19_end.012")
+
+
+vcf_sub <- fread("/InovaCommon/chr2_2ndpart.012")
